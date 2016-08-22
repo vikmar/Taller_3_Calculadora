@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:rowCount="5"
+    android:columnCount="4">
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_7"
+        android:text="7" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_8"
+        android:text="8" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_9"
+        android:text="9" />
+    <TextView
+        android:background="@color/colorAccent"
+        android:textColor= "@android:color/white"
+        android:gravity="center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/dividir"
+        android:text="÷" />
+
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_4"
+        android:text="4" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_5"
+        android:text="5" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_6"
+        android:text="6" />
+    <TextView
+        android:background="@color/colorAccent"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/multiplicar"
+        android:text="X" />
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_1"
+        android:text="1" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_2"
+        android:text="2" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_3"
+        android:text="3" />
+    <TextView
+        android:background="@color/colorAccent"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/restar"
+        android:text="-" />
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/punto"
+        android:text="." />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/numero_0"
+        android:text="0" />
+    <TextView
+        android:background="@color/colorPrimary"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/igual"
+        android:text="=" />
+    <TextView
+        android:background="@color/colorAccent"
+        android:textColor= "@android:color/white"
+        android:gravity= "center"
+        android:textSize="100dp"
+        android:layout_width= "120px"
+        android:layout_height= "144px"
+        android:id="@+id/suma"
+        android:text="+" />
+
+
+    <TextView
+        android:layout_columnSpan="4"
+        android:gravity="center"
+        android:layout_width="480px"
+        android:layout_height= "144px"
+        android:textSize="100dp"
+        android:layout_weight="1"
+        android:text="............"/>
+
+
+</GridLayout>
